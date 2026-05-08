@@ -10,7 +10,7 @@ echo -e "${bleu}"
 cat jeuDEfrappe.ascii
 echo -e "${neutre}"
 
-echo -e "\tBIENVENUE DANS LE JEU ! \n\n --> apprennez votre en jouant ce jeu ;\n"
+echo -e "\t\t\tBIENVENUE DANS LE JEU ! \n\n\t\t --> apprennez votre en jouant ce jeu ;\n"
 echo -e "${vert}"
 read -sp "Entrez pour continuer ..."
 echo -e "${neutre}"
