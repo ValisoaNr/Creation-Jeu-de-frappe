@@ -134,7 +134,22 @@ jeu_de_frappe()
 		i=$(($i + 1))
 		clear
 	done
-	echo "Votre precision est de $trouver sur $nbTour . \n"
+	echo -e "Votre precision est de $trouver sur $nbTour . \n"
+	read -sn 1
+	read -p "Rejouer ?[O/N]" -n 1 rejouer
+	case "$rejouer" in
+		o|O)
+			choix_niveau
+			choix_mode
+			jeu_de_frappe
+		;;
+		n|N)
+			echo -e "\nBye , a la prochaine !\n"
+		;;
+		*)
+			echo -e "\nReponse incorrect !\n"
+		;;
+	esac
 }
 
 bienvenue
