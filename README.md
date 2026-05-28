@@ -9,7 +9,7 @@ qui teste et améliore votre vitesse de frappe. Le programme génère aléatoire
 des chiffres ou un mélange des deux, et vous devez les recopier avant la fin du temps donné selon le niveau choisi.
 Trois niveaux de difficulté modulent le délai de saisie, et trois modes de jeu permettent de travailler 
 des ensembles de caractères différents. Idéal pour s’entraîner au clavier tout en s’amusant dans son terminal.
----
+
 ## Fonctionnalités principales
 
 - **Trois niveaux de difficulté** : Facile (15s) , Normal (10s) , Difficile (5s)
