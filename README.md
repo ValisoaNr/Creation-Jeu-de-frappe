@@ -45,4 +45,6 @@ des ensembles de caractères différents. Idéal pour s’entraîner au clavier 
 	```bash
 	chmod +x jeuDEfrappe.sh
 
-4. **Lance le avec** : ./jeuDEfrappe.sh
+4. **Lance le avec** :
+	```bash
+	./jeuDEfrappe.sh
