@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/fichier"/>
+    <qresource prefix="/fichiers">
+        <file>exemple.lettre</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Jeudefrappe</class>
+ <widget class="QMainWindow" name="Jeudefrappe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Jeu de Frappe</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="titre">
+      <property name="layoutDirection">
+       <enum>Qt::LayoutDirection::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string>font-size: 20px; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Jeu de Frappe</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Difficulté :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="dificulite">
+        <item>
+         <property name="text">
+          <string>Facile (15s)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Normal (10s)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Difficile (5s)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Mode :</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mode">
+        <item>
+         <property name="text">
+          <string>Lettres</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chiffres</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mélange</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="mot">
+      <property name="styleSheet">
+       <string>font-size: 28px; font-weight: bold; color: blue; padding: 20px;</string>
+      </property>
+      <property name="text">
+       <string>Cliquez sur Démarrer</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="entre">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string>font-size: 16px;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>100</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="temps">
+        <property name="text">
+         <string>Temps : 0s</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="score">
+        <property name="text">
+         <string>Score : 0/10</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="moyenne">
+        <property name="text">
+         <string>Précision : 0%</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="demarrer">
+      <property name="styleSheet">
+       <string>background-color: #4CAF50; color: white; padding: 10px; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Démarrer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Orientation::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
